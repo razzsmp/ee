@@ -1,14 +1,13 @@
 {
-  "name": "CornyEvergreenFont",
+  "name": "lumberjack_bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "TheDudeFromCI",
+  "license": "MIT",
   "dependencies": {
     "mineflayer": "^2.32.0",
     "mineflayer-collectblock": "^1.3.1",
