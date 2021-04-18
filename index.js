@@ -12,26 +12,20 @@ const bot = mineflayer.createBot({
 bot.loadPlugin(collectBlockPlugin);
 
 // Tree farm bounds
-const FARM_POINT_1 = new Vec3(265, 76, 283)
-const FARM_POINT_2 = new Vec3(239, 84, 305)
+const FARM_POINT_1 = new Vec3(-0, 67, 446)
+const FARM_POINT_2 = new Vec3(-119, 75, 370)
 const FARM_MIN = FARM_POINT_1.min(FARM_POINT_2)
 const FARM_MAX = FARM_POINT_1.max(FARM_POINT_2)
 
 // Load deposit chests
 bot.once('spawn', () => {
-  bot.collectBlock.chestLocations.push(new Vec3(244, 75, 274))
-  bot.collectBlock.chestLocations.push(new Vec3(242, 75, 274))
-  bot.collectBlock.chestLocations.push(new Vec3(242, 75, 271))
-  bot.collectBlock.chestLocations.push(new Vec3(243, 75, 271))
-  bot.collectBlock.chestLocations.push(new Vec3(244, 77, 274))
-  bot.collectBlock.chestLocations.push(new Vec3(242, 77, 274))
-  bot.collectBlock.chestLocations.push(new Vec3(242, 77, 271))
-  bot.collectBlock.chestLocations.push(new Vec3(243, 77, 271))
+  bot.collectBlock.chestLocations.push(new Vec3(22, 71, 419))
+  bot.collectBlock.chestLocations.push(new Vec3(22, 71, 422))
 })
 
 // Load axe retrieval chests
 bot.once('spawn', () => {
-  bot.tool.chestLocations.push(new Vec3(254, 76, 282))
+  bot.tool.chestLocations.push(new Vec3(22, 71, 424))
 })
 
 // Load Minecraft Data
