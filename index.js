@@ -1,5 +1,5 @@
 const mineflayer = require('mineflayer')
-const collectBlockPlugin = require('mineflayer-collectblock')
+const collectBlockPlugin = require('mineflayer-collectblock').plugin
 const { Vec3 } = require('vec3')
 
 const bot = mineflayer.createBot({
